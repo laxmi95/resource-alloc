@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.laxmi.assessmentproject.UpdatePin">
+
+    <EditText
+        android:id="@+id/updatePin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="65dp"
+        android:ems="10"
+        android:inputType="number"
+        android:hint="enter pin"
+        android:textStyle="italic"
+        android:textAlignment="center"
+        android:layout_below="@+id/textView"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:id="@+id/checker"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="33dp"
+        android:background="@color/colorNewBlue"
+        android:textSize="20dp"
+        android:textColor="@color/white"
+        android:text="UPDATE"
+        android:layout_below="@+id/updatePin"
+        android:layout_alignLeft="@+id/updatePin"
+        android:layout_alignStart="@+id/updatePin"
+        android:layout_alignRight="@+id/updatePin"
+        android:layout_alignEnd="@+id/updatePin" />
+
+    <TextView
+        android:id="@+id/textView"
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="34dp"
+        android:text="UPDATE PIN"
+        android:textColor="@color/colorNewBlue"
+        android:textStyle="bold"
+        android:textSize="30dp"
+        android:textAlignment="center"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+</RelativeLayout>

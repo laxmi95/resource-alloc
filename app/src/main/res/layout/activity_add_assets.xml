@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.laxmi.assessmentproject.AddAssets">
+
+    <EditText
+        android:id="@+id/assetMake"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:layout_marginTop="63dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="asset make"
+        android:layout_below="@+id/textView2"
+        android:layout_centerHorizontal="true" />
+
+    <EditText
+        android:id="@+id/yearOfMaking"
+        android:layout_width="wrap_content"
+        android:textAlignment="center"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/assetMake"
+        android:layout_alignStart="@+id/assetMake"
+        android:layout_below="@+id/assetMake"
+        android:layout_marginTop="24dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="year of making" />
+
+    <EditText
+        android:id="@+id/assetAllocTo"
+        android:textAlignment="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/yearOfMaking"
+        android:layout_alignStart="@+id/yearOfMaking"
+        android:layout_below="@+id/yearOfMaking"
+        android:layout_marginTop="21dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="asset allocated to" />
+
+    <EditText
+        android:id="@+id/assetAllocTill"
+        android:layout_width="wrap_content"
+        android:textAlignment="center"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/assetAllocTo"
+        android:layout_alignRight="@+id/assetAllocTo"
+        android:layout_below="@+id/assetAllocTo"
+        android:layout_marginTop="23dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="asset allocated till" />
+
+    <Button
+        android:id="@+id/save"
+        android:background="@color/colorNewBlue"
+        android:textColor="@color/white"
+        android:textSize="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="46dp"
+        android:text="SAVE"
+        android:layout_below="@+id/assetAllocTill"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        android:textColor="@color/colorNewBlue"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="33dp"
+        android:text="ADD ASSET"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+
+</RelativeLayout>

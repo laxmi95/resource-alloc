@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.laxmi.assessmentproject.RemoveAssert">
+
+    <EditText
+        android:id="@+id/asset_id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="81dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="enter asset id"
+        android:textAlignment="center"
+        android:textStyle="italic"
+        android:layout_below="@+id/textView12"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:id="@+id/delete"
+        android:background="@color/red"
+        android:textSize="20dp"
+        android:textColor="@color/white"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="39dp"
+        android:text="DELETE"
+        android:layout_below="@+id/asset_id"
+        android:layout_alignLeft="@+id/asset_id"
+        android:layout_alignStart="@+id/asset_id"
+        android:layout_alignRight="@+id/asset_id"
+        android:layout_alignEnd="@+id/asset_id" />
+
+    <TextView
+        android:id="@+id/textView12"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="30dp"
+        android:textColor="@color/colorNewBlue"
+        android:textStyle="bold"
+        android:text="REMOVE ASSET"
+        android:layout_alignParentTop="true"
+        android:layout_alignRight="@+id/asset_id"
+        android:layout_alignEnd="@+id/asset_id"
+        android:layout_marginTop="58dp" />
+</RelativeLayout>
